@@ -15,6 +15,8 @@ var Banco = function (nombre, sucursal, cliente, numCuenta) {
     this.numCuenta = numCuenta;
 }
 
+
+//Declaracion del objeto cajero
 var Cajero = function (nombre, red, costoPorOperacion) {
     this.nombre = nombre;
     this.red = red;
